@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransitionViewController">
+            <connections>
+                <outlet property="imageView" destination="pld-Tx-rqc" id="Fl4-Am-P86"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDc-Y4-UUm">
+                    <rect key="frame" x="49" y="100" width="222" height="40"/>
+                    <color key="backgroundColor" red="1" green="0.42745098040000001" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="BUc-Fg-403"/>
+                        <constraint firstAttribute="width" constant="222" id="ou0-1Q-vdE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="UIImageView 旋转更改图片"/>
+                    <connections>
+                        <action selector="buttonClicked:" destination="-1" eventType="touchUpInside" id="nk5-sX-Jg2"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pld-Tx-rqc">
+                    <rect key="frame" x="40" y="220" width="240" height="141"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="I9E-w3-zgZ"/>
+                        <constraint firstAttribute="height" constant="141" id="cEO-Ku-LOJ"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pld-Tx-rqc" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="MgI-oE-ed2"/>
+                <constraint firstItem="qDc-Y4-UUm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="fgA-v3-tiP"/>
+                <constraint firstItem="pld-Tx-rqc" firstAttribute="top" secondItem="qDc-Y4-UUm" secondAttribute="bottom" constant="80" id="tC6-cy-WbF"/>
+                <constraint firstItem="qDc-Y4-UUm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wKO-HJ-IQ3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="445" y="357"/>
+        </view>
+    </objects>
+</document>
