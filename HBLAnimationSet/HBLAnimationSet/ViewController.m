@@ -6,11 +6,17 @@
 //  Copyright © 2016年 Benlinhuo. All rights reserved.
 //
 
+#import  <CoreGraphics/CoreGraphics.h>
 #import "ViewController.h"
 #import "TransitionViewController.h"
 #import "CABasicAnimationController.h"
 #import "CAKeyframeViewController.h"
-#import  <CoreGraphics/CoreGraphics.h>
+#import "CAAnimationGroupViewController.h"
+#import "CATransitionViewController.h"
+#import "CGAffineTransformViewController.h"
+#import "UIViewTransitionViewController.h"
+#import "MaskLayerPauseViewController.h"
+#import "SpringAnimationViewController.h"
 
 #define DEGREES_TO_RADIANS(degrees)((M_PI * degrees)/180)
 NSString * const kYAxisTransform = @"transform.rotation.y";
@@ -105,7 +111,7 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
 {
     if (section == 0) {
         // 基础动画例子
-        return 3;
+        return 6;
         
     } else {
         // 高级动画
@@ -156,7 +162,26 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
                 break;
             case 2:
             {
-                
+                CAAnimationGroupViewController *vc = [CAAnimationGroupViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+                break;
+            case 3:
+            {
+                CATransitionViewController *vc = [CATransitionViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+                break;
+            case 4:
+            {
+                CGAffineTransformViewController *vc = [CGAffineTransformViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+                break;
+            case 5:
+            {
+                UIViewTransitionViewController *vc = [UIViewTransitionViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
                 
@@ -173,12 +198,14 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
                 break;
             case 1:
             {
-                
+                MaskLayerPauseViewController *vc = [MaskLayerPauseViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
             case 2:
             {
-                
+                SpringAnimationViewController *vc = [SpringAnimationViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
                 
@@ -212,7 +239,22 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
                 break;
             case 2:
             {
-                
+                cell.textLabel.text = @"CAAnimationGroup";
+            }
+                break;
+            case 3:
+            {
+                cell.textLabel.text = @"CATransition";
+            }
+                break;
+            case 4:
+            {
+                cell.textLabel.text = @"CGAffineTransform";
+            }
+                break;
+            case 5:
+            {
+                cell.textLabel.text = @"UIView类方法实现转场动画";
             }
                 break;
             default:
@@ -228,12 +270,12 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
                 break;
             case 1:
             {
-                
+                cell.textLabel.text = @"动画暂停实例";
             }
                 break;
             case 2:
             {
-                
+                cell.textLabel.text = @"简单的阻尼弹簧动画";
             }
                 break;
             default:

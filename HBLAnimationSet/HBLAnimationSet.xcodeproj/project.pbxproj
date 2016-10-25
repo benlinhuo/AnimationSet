@@ -17,10 +17,20 @@
 		C5D121941D6ACDB9006951E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D121921D6ACDB9006951E8 /* LaunchScreen.storyboard */; };
 		C5D121A01D6AD77C006951E8 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1219E1D6AD77C006951E8 /* TransitionViewController.m */; };
 		C5D121A11D6AD77C006951E8 /* TransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D1219F1D6AD77C006951E8 /* TransitionViewController.xib */; };
+		CE2D2A7E1DBF2B98002CB98A /* MaskLayerPauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D2A7C1DBF2B98002CB98A /* MaskLayerPauseViewController.m */; };
+		CE2D2A7F1DBF2B98002CB98A /* MaskLayerPauseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2D2A7D1DBF2B98002CB98A /* MaskLayerPauseViewController.xib */; };
+		CE2D2A831DBF2D3D002CB98A /* mask1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2D2A811DBF2D3D002CB98A /* mask1.png */; };
+		CE2D2A841DBF2D3D002CB98A /* mask2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2D2A821DBF2D3D002CB98A /* mask2.png */; };
+		CE2D2A8B1DBF5C14002CB98A /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D2A891DBF5C14002CB98A /* SpringAnimationViewController.m */; };
+		CE2D2A8C1DBF5C14002CB98A /* SpringAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2D2A8A1DBF5C14002CB98A /* SpringAnimationViewController.xib */; };
 		CE50DCB41DA8D61E0009A205 /* CABasicAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50DCB31DA8D61E0009A205 /* CABasicAnimationController.m */; };
 		CE50DCB71DA8E6B50009A205 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50DCB61DA8E6B50009A205 /* BaseViewController.m */; };
 		CE50DCBB1DA8E7300009A205 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50DCBA1DA8E7300009A205 /* TitleButton.m */; };
 		CE50DCBF1DA9F7620009A205 /* CAKeyframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50DCBE1DA9F7620009A205 /* CAKeyframeViewController.m */; };
+		CE50DCC61DAB49430009A205 /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50DCC51DAB49430009A205 /* CAAnimationGroupViewController.m */; };
+		CE50DCCA1DAB69F80009A205 /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE50DCC91DAB69F80009A205 /* CATransitionViewController.m */; };
+		CEFA94E61DBDBA7A00AD911C /* CGAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94E51DBDBA7A00AD911C /* CGAffineTransformViewController.m */; };
+		CEFA94EA1DBDDB9900AD911C /* UIViewTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA94E91DBDDB9900AD911C /* UIViewTransitionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +50,14 @@
 		C5D1219D1D6AD77C006951E8 /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
 		C5D1219E1D6AD77C006951E8 /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		C5D1219F1D6AD77C006951E8 /* TransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionViewController.xib; sourceTree = "<group>"; };
+		CE2D2A7B1DBF2B98002CB98A /* MaskLayerPauseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerPauseViewController.h; sourceTree = "<group>"; };
+		CE2D2A7C1DBF2B98002CB98A /* MaskLayerPauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerPauseViewController.m; sourceTree = "<group>"; };
+		CE2D2A7D1DBF2B98002CB98A /* MaskLayerPauseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskLayerPauseViewController.xib; sourceTree = "<group>"; };
+		CE2D2A811DBF2D3D002CB98A /* mask1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask1.png; sourceTree = "<group>"; };
+		CE2D2A821DBF2D3D002CB98A /* mask2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask2.png; sourceTree = "<group>"; };
+		CE2D2A881DBF5C14002CB98A /* SpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationViewController.h; sourceTree = "<group>"; };
+		CE2D2A891DBF5C14002CB98A /* SpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationViewController.m; sourceTree = "<group>"; };
+		CE2D2A8A1DBF5C14002CB98A /* SpringAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpringAnimationViewController.xib; sourceTree = "<group>"; };
 		CE50DCB21DA8D61E0009A205 /* CABasicAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasicAnimationController.h; sourceTree = "<group>"; };
 		CE50DCB31DA8D61E0009A205 /* CABasicAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationController.m; sourceTree = "<group>"; };
 		CE50DCB51DA8E6B50009A205 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -48,6 +66,14 @@
 		CE50DCBA1DA8E7300009A205 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
 		CE50DCBD1DA9F7620009A205 /* CAKeyframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeViewController.h; sourceTree = "<group>"; };
 		CE50DCBE1DA9F7620009A205 /* CAKeyframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeViewController.m; sourceTree = "<group>"; };
+		CE50DCC41DAB49430009A205 /* CAAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupViewController.h; sourceTree = "<group>"; };
+		CE50DCC51DAB49430009A205 /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
+		CE50DCC81DAB69F80009A205 /* CATransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionViewController.h; sourceTree = "<group>"; };
+		CE50DCC91DAB69F80009A205 /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
+		CEFA94E41DBDBA7A00AD911C /* CGAffineTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformViewController.h; sourceTree = "<group>"; };
+		CEFA94E51DBDBA7A00AD911C /* CGAffineTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformViewController.m; sourceTree = "<group>"; };
+		CEFA94E81DBDDB9900AD911C /* UIViewTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewTransitionViewController.h; sourceTree = "<group>"; };
+		CEFA94E91DBDDB9900AD911C /* UIViewTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewTransitionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +118,10 @@
 		C5D121831D6ACDB9006951E8 /* HBLAnimationSet */ = {
 			isa = PBXGroup;
 			children = (
-				CE50DCBC1DA9F73C0009A205 /* CAKeyframeAnimation */,
+				CE2D2A801DBF2D34002CB98A /* resources */,
+				CE2D2A791DBF2AB2002CB98A /* complexAnimationSet */,
+				CE2D2A781DBF2A9F002CB98A /* basicAniamtionSet */,
 				CE50DCB81DA8E7180009A205 /* Common */,
-				CE50DCB11DA8D5E10009A205 /* CABasicAnimation */,
-				C5C42B4A1D6B36490040E120 /* transition */,
 				C5D121871D6ACDB9006951E8 /* AppDelegate.h */,
 				C5D121881D6ACDB9006951E8 /* AppDelegate.m */,
 				C5D1218A1D6ACDB9006951E8 /* ViewController.h */,
@@ -116,6 +142,50 @@
 				C5D1219C1D6AD09B006951E8 /* Animation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE2D2A781DBF2A9F002CB98A /* basicAniamtionSet */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA94E71DBDDB7700AD911C /* UIViewTransition */,
+				CEFA94E31DBDBA5100AD911C /* CGAffineTransform */,
+				CE50DCC71DAB69DD0009A205 /* CATransition */,
+				CE50DCC01DAB48CD0009A205 /* CAAnimationGroup */,
+				CE50DCBC1DA9F73C0009A205 /* CAKeyframeAnimation */,
+				CE50DCB11DA8D5E10009A205 /* CABasicAnimation */,
+			);
+			name = basicAniamtionSet;
+			sourceTree = "<group>";
+		};
+		CE2D2A791DBF2AB2002CB98A /* complexAnimationSet */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D2A7A1DBF2B61002CB98A /* maskLayerPause */,
+				C5C42B4A1D6B36490040E120 /* transition */,
+				CE2D2A881DBF5C14002CB98A /* SpringAnimationViewController.h */,
+				CE2D2A891DBF5C14002CB98A /* SpringAnimationViewController.m */,
+				CE2D2A8A1DBF5C14002CB98A /* SpringAnimationViewController.xib */,
+			);
+			name = complexAnimationSet;
+			sourceTree = "<group>";
+		};
+		CE2D2A7A1DBF2B61002CB98A /* maskLayerPause */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D2A7B1DBF2B98002CB98A /* MaskLayerPauseViewController.h */,
+				CE2D2A7C1DBF2B98002CB98A /* MaskLayerPauseViewController.m */,
+				CE2D2A7D1DBF2B98002CB98A /* MaskLayerPauseViewController.xib */,
+			);
+			name = maskLayerPause;
+			sourceTree = "<group>";
+		};
+		CE2D2A801DBF2D34002CB98A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D2A811DBF2D3D002CB98A /* mask1.png */,
+				CE2D2A821DBF2D3D002CB98A /* mask2.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 		CE50DCB11DA8D5E10009A205 /* CABasicAnimation */ = {
@@ -145,6 +215,42 @@
 				CE50DCBE1DA9F7620009A205 /* CAKeyframeViewController.m */,
 			);
 			name = CAKeyframeAnimation;
+			sourceTree = "<group>";
+		};
+		CE50DCC01DAB48CD0009A205 /* CAAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				CE50DCC41DAB49430009A205 /* CAAnimationGroupViewController.h */,
+				CE50DCC51DAB49430009A205 /* CAAnimationGroupViewController.m */,
+			);
+			name = CAAnimationGroup;
+			sourceTree = "<group>";
+		};
+		CE50DCC71DAB69DD0009A205 /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				CE50DCC81DAB69F80009A205 /* CATransitionViewController.h */,
+				CE50DCC91DAB69F80009A205 /* CATransitionViewController.m */,
+			);
+			name = CATransition;
+			sourceTree = "<group>";
+		};
+		CEFA94E31DBDBA5100AD911C /* CGAffineTransform */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA94E41DBDBA7A00AD911C /* CGAffineTransformViewController.h */,
+				CEFA94E51DBDBA7A00AD911C /* CGAffineTransformViewController.m */,
+			);
+			name = CGAffineTransform;
+			sourceTree = "<group>";
+		};
+		CEFA94E71DBDDB7700AD911C /* UIViewTransition */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA94E81DBDDB9900AD911C /* UIViewTransitionViewController.h */,
+				CEFA94E91DBDDB9900AD911C /* UIViewTransitionViewController.m */,
+			);
+			name = UIViewTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,7 +310,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2D2A841DBF2D3D002CB98A /* mask2.png in Resources */,
 				C5C42B471D6B35E80040E120 /* 2.jpeg in Resources */,
+				CE2D2A831DBF2D3D002CB98A /* mask1.png in Resources */,
+				CE2D2A7F1DBF2B98002CB98A /* MaskLayerPauseViewController.xib in Resources */,
+				CE2D2A8C1DBF5C14002CB98A /* SpringAnimationViewController.xib in Resources */,
 				C5C42B491D6B36090040E120 /* 1.jpeg in Resources */,
 				C5D121941D6ACDB9006951E8 /* LaunchScreen.storyboard in Resources */,
 				C5D121911D6ACDB9006951E8 /* Assets.xcassets in Resources */,
@@ -220,14 +330,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2D2A8B1DBF5C14002CB98A /* SpringAnimationViewController.m in Sources */,
 				C5D1218C1D6ACDB9006951E8 /* ViewController.m in Sources */,
+				CEFA94E61DBDBA7A00AD911C /* CGAffineTransformViewController.m in Sources */,
 				CE50DCBB1DA8E7300009A205 /* TitleButton.m in Sources */,
+				CE50DCC61DAB49430009A205 /* CAAnimationGroupViewController.m in Sources */,
+				CEFA94EA1DBDDB9900AD911C /* UIViewTransitionViewController.m in Sources */,
 				CE50DCB71DA8E6B50009A205 /* BaseViewController.m in Sources */,
 				C5D121891D6ACDB9006951E8 /* AppDelegate.m in Sources */,
 				CE50DCBF1DA9F7620009A205 /* CAKeyframeViewController.m in Sources */,
+				CE2D2A7E1DBF2B98002CB98A /* MaskLayerPauseViewController.m in Sources */,
 				C5D121861D6ACDB9006951E8 /* main.m in Sources */,
 				CE50DCB41DA8D61E0009A205 /* CABasicAnimationController.m in Sources */,
 				C5D121A01D6AD77C006951E8 /* TransitionViewController.m in Sources */,
+				CE50DCCA1DAB69F80009A205 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -105,9 +105,8 @@
 {
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     animation.fromValue = [NSNumber numberWithFloat:0.1f];
+    // 使用 byValue 和 fromValue ，那 toValue=fromValue+byValue。使用 byValue 和 toValue，那 fromValue=toValue - byValue。所以 fromValue、byValue、toValue，只能使用三者之二，不能三者同时使用
     animation.byValue = [NSNumber numberWithFloat:0.5f];
-    animation.toValue = [NSNumber numberWithFloat:1.f];
-    // 测试 byValue 需要设置如下两个属性，否则看不出效果，因为最终恢复到初始状态。如下设置的效果就是透明度0.1->0.5，且重复两次
     animation.removedOnCompletion = NO;
     animation.fillMode = kCAFillModeForwards;
     animation.duration = 2.f;

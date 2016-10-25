@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"CAKeyframeViewController";
+    self.title = @"CAKeyframeAnimation";
 }
 
 - (void)initView{
