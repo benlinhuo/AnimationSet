@@ -89,12 +89,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HBLAnimationSet/HBLBubbleTransition.m"
-            timestampString = "499861201.154597"
+            timestampString = "499919613.667108"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "-transitionDismiss"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HBLAnimationSet/HBLHalfPresentTransition.m"
+            timestampString = "499935081.354208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "-dismissVC"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

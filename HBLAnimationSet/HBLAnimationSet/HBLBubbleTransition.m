@@ -20,7 +20,7 @@
     // 1. 创建一个 layerView 用于模拟水波扩散的动画效果 [本质上，水波扩散，就是一个小圆慢慢放大的过程]
     UIView *layerView = [UIView new];// 它需要是圆形，以中心点往外扩散
     layerView.backgroundColor = self.toView.backgroundColor;
-    CGFloat x = fmax(self.bubbleCenter.x, SCREEN_WIDTH);
+    CGFloat x = fmax(self.bubbleCenter.x, SCREEN_WIDTH); // 此时 toView 的frame 已经是它最终要展示的大小了，而size不是（0,0）
     CGFloat y = fmax(self.bubbleCenter.y, SCREEN_HEIGHT);
     CGFloat radius = sqrt(x * x + y * y);
     layerView.frame = CGRectMake(0, 0, radius * 2, radius * 2);
@@ -38,6 +38,13 @@
     self.toView.transform = CGAffineTransformMakeScale(0.001, 0.001);
     self.toView.alpha = 0;
     [self.containerView addSubview:self.toView]; // 先 layerView 再 toView，因为动画过程也是需要展示 toView 的内容
+    
+    // 带弹簧的动画效果
+//    [UIView animateWithDuration:[self transitionDuration:self.transitionContext] delay:0 usingSpringWithDamping:0.6 initialSpringVelocity:0 options:UIViewAnimationOptionCurveLinear animations:^{
+//        
+//    } completion:^(BOOL finished) {
+//        
+//    }];
     
     [UIView animateWithDuration:[self transitionDuration:self.transitionContext] animations:^{
         self.toView.alpha = 1;

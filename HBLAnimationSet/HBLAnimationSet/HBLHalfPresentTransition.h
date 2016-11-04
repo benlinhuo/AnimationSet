@@ -8,6 +8,10 @@
 
 #import "HBLBaseTransition.h"
 
+typedef void(^HBLHalfPresentSnapDismissBlock)(void);
+
 @interface HBLHalfPresentTransition : HBLBaseTransition
+
+@property (nonatomic, copy) HBLHalfPresentSnapDismissBlock dismissBlock;
 
 @end

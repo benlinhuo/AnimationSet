@@ -10,4 +10,7 @@
 
 @interface HBLRevealLeftTransition : HBLBaseTransition
 
+// offset 是指firstVC 展示的距离
+@property (nonatomic, assign) CGFloat offset;
+
 @end

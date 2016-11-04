@@ -17,6 +17,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *btn;
 
+@property (nonatomic, strong) TransitionSecondViewController *secondVC;
+
 @end
 
 @implementation TransitionFirstViewController
@@ -32,6 +34,7 @@
 {
     TransitionSecondViewController *secondVC = [TransitionSecondViewController new];
     secondVC.transitioningDelegate = self;
+    self.secondVC = secondVC;
     [self presentViewController:secondVC animated:YES completion:nil];
 }
 
@@ -62,6 +65,9 @@
         {
             HBLHalfPresentTransition *transition = [HBLHalfPresentTransition new];
             transition.showType = showType;
+            transition.dismissBlock = ^{
+                [self.secondVC dismissViewControllerAnimated:YES completion:nil];
+            };
             return transition;
         }
             break;
@@ -69,6 +75,7 @@
         {
             HBLRevealLeftTransition *transition = [HBLRevealLeftTransition new];
             transition.showType = showType;
+            transition.offset = 40.f;
             return transition;
         }
             break;
