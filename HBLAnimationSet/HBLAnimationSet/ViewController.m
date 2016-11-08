@@ -18,6 +18,7 @@
 #import "MaskLayerPauseViewController.h"
 #import "SpringAnimationViewController.h"
 #import "TransitionListViewController.h"
+#import "NewsViewController.h"
 
 #define DEGREES_TO_RADIANS(degrees)((M_PI * degrees)/180)
 NSString * const kYAxisTransform = @"transform.rotation.y";
@@ -49,7 +50,7 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
         
     } else {
         // 高级动画
-        return 4;
+        return 5;
     }
 }
 
@@ -148,6 +149,12 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
                 [self.navigationController pushViewController:vc animated:YES];
             }
                 break;
+            case 4:
+            {
+                NewsViewController *vc = [NewsViewController new];
+                [self.navigationController pushViewController:vc animated:YES];
+            }
+                break;
                 
             default:
                 break;
@@ -221,6 +228,11 @@ NSString * const kYAxisTransform = @"transform.rotation.y";
             case 3:
             {
                 cell.textLabel.text = @"各类转场动画";
+            }
+                break;
+            case 4:
+            {
+                cell.textLabel.text = @"ChildViewController";
             }
             
             default:

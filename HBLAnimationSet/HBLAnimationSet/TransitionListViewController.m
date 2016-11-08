@@ -9,8 +9,10 @@
 #import "TransitionListViewController.h"
 #import "vcTransitionViewController.h"
 #import "TransitionFirstViewController.h"
+#import "MyTabBarViewController.h"
+#import "TabBarTransition.h"
 
-@interface TransitionListViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface TransitionListViewController ()<UITableViewDelegate, UITableViewDataSource, UITabBarControllerDelegate>
 
 @property (nonatomic, strong) UITableView *tblView;
 
@@ -27,7 +29,7 @@
 #pragma mark - UITableViewDelegate
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 6;
+    return 7;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -63,6 +65,13 @@
             TransitionFirstViewController *firstVC = [[TransitionFirstViewController alloc] init];
             firstVC.transitionType = indexPath.row;
             [self.navigationController pushViewController:firstVC animated:YES];
+        }
+            break;
+        case 6:
+        {
+            MyTabBarViewController *myTabController = [[MyTabBarViewController alloc] init];
+            myTabController.delegate = self;
+            [self presentViewController:myTabController animated:YES completion:nil];
         }
             break;
             
@@ -111,6 +120,11 @@
             cell.textLabel.text = @"LeftTopPresent"; // 从左上角present展示
         }
             break;
+        case 6:
+        {
+            cell.textLabel.text = @"tabbarcontroller 切换转场动画"; // 从左上角present展示
+        }
+            break;
         default:
             break;
     }
@@ -118,6 +132,13 @@
     return cell;
 }
 
+
+- (id <UIViewControllerAnimatedTransitioning>)tabBarController:(UITabBarController *)tabBarController
+            animationControllerForTransitionFromViewController:(UIViewController *)fromVC
+                                              toViewController:(UIViewController *)toVC
+{
+    return [[TabBarTransition alloc] initWithFromVC:fromVC ToVC:toVC];
+}
 
 - (UITableView *)tblView
 {

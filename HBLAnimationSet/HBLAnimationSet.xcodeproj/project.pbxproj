@@ -17,6 +17,20 @@
 		C5D121941D6ACDB9006951E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D121921D6ACDB9006951E8 /* LaunchScreen.storyboard */; };
 		C5D121A01D6AD77C006951E8 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D1219E1D6AD77C006951E8 /* TransitionViewController.m */; };
 		C5D121A11D6AD77C006951E8 /* TransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D1219F1D6AD77C006951E8 /* TransitionViewController.xib */; };
+		CE0342011DD0790D00C99949 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0341FF1DD0790D00C99949 /* NewsViewController.m */; };
+		CE0342061DD0792100C99949 /* ChildNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0342041DD0792100C99949 /* ChildNewsViewController.m */; };
+		CE0342071DD0792100C99949 /* ChildNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0342051DD0792100C99949 /* ChildNewsViewController.xib */; };
+		CE03420B1DD0792B00C99949 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0342091DD0792B00C99949 /* DetailViewController.m */; };
+		CE03420C1DD0792B00C99949 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE03420A1DD0792B00C99949 /* DetailViewController.xib */; };
+		CE03420F1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03420E1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.m */; };
+		CE0342131DD07E5400C99949 /* NewsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0342111DD07E5400C99949 /* NewsCollectionViewCell.m */; };
+		CE0342141DD07E5400C99949 /* NewsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0342121DD07E5400C99949 /* NewsCollectionViewCell.xib */; };
+		CE0342171DD1C39B00C99949 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0342161DD1C39B00C99949 /* MyTabBarViewController.m */; };
+		CE03421C1DD1C83200C99949 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03421A1DD1C83200C99949 /* HomeViewController.m */; };
+		CE03421D1DD1C83200C99949 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE03421B1DD1C83200C99949 /* HomeViewController.xib */; };
+		CE0342211DD1C84600C99949 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE03421F1DD1C84600C99949 /* MyViewController.m */; };
+		CE0342221DD1C84600C99949 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE0342201DD1C84600C99949 /* MyViewController.xib */; };
+		CE0342251DD1CC6600C99949 /* TabBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0342241DD1CC6600C99949 /* TabBarTransition.m */; };
 		CE2D2A7E1DBF2B98002CB98A /* MaskLayerPauseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2D2A7C1DBF2B98002CB98A /* MaskLayerPauseViewController.m */; };
 		CE2D2A7F1DBF2B98002CB98A /* MaskLayerPauseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2D2A7D1DBF2B98002CB98A /* MaskLayerPauseViewController.xib */; };
 		CE2D2A831DBF2D3D002CB98A /* mask1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2D2A811DBF2D3D002CB98A /* mask1.png */; };
@@ -69,6 +83,29 @@
 		C5D1219D1D6AD77C006951E8 /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
 		C5D1219E1D6AD77C006951E8 /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		C5D1219F1D6AD77C006951E8 /* TransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionViewController.xib; sourceTree = "<group>"; };
+		CE0341FE1DD0790D00C99949 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		CE0341FF1DD0790D00C99949 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		CE0342031DD0792100C99949 /* ChildNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildNewsViewController.h; sourceTree = "<group>"; };
+		CE0342041DD0792100C99949 /* ChildNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildNewsViewController.m; sourceTree = "<group>"; };
+		CE0342051DD0792100C99949 /* ChildNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildNewsViewController.xib; sourceTree = "<group>"; };
+		CE0342081DD0792B00C99949 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CE0342091DD0792B00C99949 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CE03420A1DD0792B00C99949 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		CE03420D1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCollectionViewDataSourceManager.h; sourceTree = "<group>"; };
+		CE03420E1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCollectionViewDataSourceManager.m; sourceTree = "<group>"; };
+		CE0342101DD07E5400C99949 /* NewsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCollectionViewCell.h; sourceTree = "<group>"; };
+		CE0342111DD07E5400C99949 /* NewsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCollectionViewCell.m; sourceTree = "<group>"; };
+		CE0342121DD07E5400C99949 /* NewsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCollectionViewCell.xib; sourceTree = "<group>"; };
+		CE0342151DD1C39B00C99949 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		CE0342161DD1C39B00C99949 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		CE0342191DD1C83200C99949 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CE03421A1DD1C83200C99949 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CE03421B1DD1C83200C99949 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		CE03421E1DD1C84600C99949 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CE03421F1DD1C84600C99949 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CE0342201DD1C84600C99949 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		CE0342231DD1CC6600C99949 /* TabBarTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarTransition.h; sourceTree = "<group>"; };
+		CE0342241DD1CC6600C99949 /* TabBarTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarTransition.m; sourceTree = "<group>"; };
 		CE2D2A7B1DBF2B98002CB98A /* MaskLayerPauseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskLayerPauseViewController.h; sourceTree = "<group>"; };
 		CE2D2A7C1DBF2B98002CB98A /* MaskLayerPauseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskLayerPauseViewController.m; sourceTree = "<group>"; };
 		CE2D2A7D1DBF2B98002CB98A /* MaskLayerPauseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskLayerPauseViewController.xib; sourceTree = "<group>"; };
@@ -193,6 +230,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE0341FA1DD0784500C99949 /* childViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE0341FE1DD0790D00C99949 /* NewsViewController.h */,
+				CE0341FF1DD0790D00C99949 /* NewsViewController.m */,
+				CE0342031DD0792100C99949 /* ChildNewsViewController.h */,
+				CE0342041DD0792100C99949 /* ChildNewsViewController.m */,
+				CE0342051DD0792100C99949 /* ChildNewsViewController.xib */,
+				CE0342081DD0792B00C99949 /* DetailViewController.h */,
+				CE0342091DD0792B00C99949 /* DetailViewController.m */,
+				CE03420A1DD0792B00C99949 /* DetailViewController.xib */,
+				CE03420D1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.h */,
+				CE03420E1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.m */,
+				CE0342101DD07E5400C99949 /* NewsCollectionViewCell.h */,
+				CE0342111DD07E5400C99949 /* NewsCollectionViewCell.m */,
+				CE0342121DD07E5400C99949 /* NewsCollectionViewCell.xib */,
+			);
+			name = childViewController;
+			sourceTree = "<group>";
+		};
+		CE0342181DD1C80500C99949 /* tabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				CE0342151DD1C39B00C99949 /* MyTabBarViewController.h */,
+				CE0342161DD1C39B00C99949 /* MyTabBarViewController.m */,
+				CE0342191DD1C83200C99949 /* HomeViewController.h */,
+				CE03421A1DD1C83200C99949 /* HomeViewController.m */,
+				CE03421B1DD1C83200C99949 /* HomeViewController.xib */,
+				CE03421E1DD1C84600C99949 /* MyViewController.h */,
+				CE03421F1DD1C84600C99949 /* MyViewController.m */,
+				CE0342201DD1C84600C99949 /* MyViewController.xib */,
+				CE0342231DD1CC6600C99949 /* TabBarTransition.h */,
+				CE0342241DD1CC6600C99949 /* TabBarTransition.m */,
+			);
+			name = tabbarController;
+			sourceTree = "<group>";
+		};
 		CE2D2A781DBF2A9F002CB98A /* basicAniamtionSet */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +283,7 @@
 		CE2D2A791DBF2AB2002CB98A /* complexAnimationSet */ = {
 			isa = PBXGroup;
 			children = (
+				CE0341FA1DD0784500C99949 /* childViewController */,
 				CEBA45651DCB115900B547FA /* transitionList */,
 				CE2D2A8D1DC04D02002CB98A /* vcTransition */,
 				CE2D2A7A1DBF2B61002CB98A /* maskLayerPause */,
@@ -310,6 +385,7 @@
 		CEBA45651DCB115900B547FA /* transitionList */ = {
 			isa = PBXGroup;
 			children = (
+				CE0342181DD1C80500C99949 /* tabbarController */,
 				CEBA456C1DCB188500B547FA /* transitions */,
 				CEBA45731DCB190600B547FA /* TransitionFirstViewController.h */,
 				CEBA45741DCB190600B547FA /* TransitionFirstViewController.m */,
@@ -413,8 +489,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0342071DD0792100C99949 /* ChildNewsViewController.xib in Resources */,
 				CE2D2A9C1DC08079002CB98A /* movie4.jpg in Resources */,
 				CE2D2A841DBF2D3D002CB98A /* mask2.png in Resources */,
+				CE0342221DD1C84600C99949 /* MyViewController.xib in Resources */,
 				C5C42B471D6B35E80040E120 /* 2.jpeg in Resources */,
 				CE2D2A831DBF2D3D002CB98A /* mask1.png in Resources */,
 				CE2D2A7F1DBF2B98002CB98A /* MaskLayerPauseViewController.xib in Resources */,
@@ -426,11 +504,14 @@
 				C5D121941D6ACDB9006951E8 /* LaunchScreen.storyboard in Resources */,
 				C5D121911D6ACDB9006951E8 /* Assets.xcassets in Resources */,
 				CE2D2A9B1DC08079002CB98A /* movie3.jpg in Resources */,
+				CE0342141DD07E5400C99949 /* NewsCollectionViewCell.xib in Resources */,
 				C5D1218F1D6ACDB9006951E8 /* Main.storyboard in Resources */,
+				CE03420C1DD0792B00C99949 /* DetailViewController.xib in Resources */,
 				CE2D2A991DC08079002CB98A /* movie1.jpg in Resources */,
 				CE2D2A9D1DC08079002CB98A /* movie5.jpg in Resources */,
 				CEBA45771DCB190600B547FA /* TransitionFirstViewController.xib in Resources */,
 				C5D121A11D6AD77C006951E8 /* TransitionViewController.xib in Resources */,
+				CE03421D1DD1C83200C99949 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,11 +522,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0342211DD1C84600C99949 /* MyViewController.m in Sources */,
 				CE2D2A8B1DBF5C14002CB98A /* SpringAnimationViewController.m in Sources */,
 				C5D1218C1D6ACDB9006951E8 /* ViewController.m in Sources */,
 				CE2D2AA21DC082D4002CB98A /* SingleViewController.m in Sources */,
 				CEFA94E61DBDBA7A00AD911C /* CGAffineTransformViewController.m in Sources */,
 				CEBA45881DCB30B900B547FA /* HBLLeftTopPresentTransition.m in Sources */,
+				CE0342011DD0790D00C99949 /* NewsViewController.m in Sources */,
 				CEE5EDC11DC1ABDA00C38AEB /* VCCustomTransitioning.m in Sources */,
 				CE50DCBB1DA8E7300009A205 /* TitleButton.m in Sources */,
 				CE50DCC61DAB49430009A205 /* CAAnimationGroupViewController.m in Sources */,
@@ -455,16 +538,23 @@
 				CEBA45821DCB309B00B547FA /* HBLHalfPresentTransition.m in Sources */,
 				CE50DCB71DA8E6B50009A205 /* BaseViewController.m in Sources */,
 				C5D121891D6ACDB9006951E8 /* AppDelegate.m in Sources */,
+				CE0342061DD0792100C99949 /* ChildNewsViewController.m in Sources */,
+				CE03420F1DD07DF300C99949 /* NewsCollectionViewDataSourceManager.m in Sources */,
 				CE50DCBF1DA9F7620009A205 /* CAKeyframeViewController.m in Sources */,
+				CE0342171DD1C39B00C99949 /* MyTabBarViewController.m in Sources */,
 				CE2D2A7E1DBF2B98002CB98A /* MaskLayerPauseViewController.m in Sources */,
 				C5D121861D6ACDB9006951E8 /* main.m in Sources */,
 				CEBA457B1DCB29FC00B547FA /* TransitionSecondViewController.m in Sources */,
 				CEBA45641DCB074500B547FA /* TransitionListViewController.m in Sources */,
+				CE03421C1DD1C83200C99949 /* HomeViewController.m in Sources */,
 				CE50DCB41DA8D61E0009A205 /* CABasicAnimationController.m in Sources */,
+				CE03420B1DD0792B00C99949 /* DetailViewController.m in Sources */,
 				CEBA45681DCB119400B547FA /* HBLBaseTransition.m in Sources */,
 				C5D121A01D6AD77C006951E8 /* TransitionViewController.m in Sources */,
 				CEBA456B1DCB184B00B547FA /* HBLBubbleTransition.m in Sources */,
+				CE0342131DD07E5400C99949 /* NewsCollectionViewCell.m in Sources */,
 				CE2D2A911DC07B6F002CB98A /* vcTransitionViewController.m in Sources */,
+				CE0342251DD1CC6600C99949 /* TabBarTransition.m in Sources */,
 				CE50DCCA1DAB69F80009A205 /* CATransitionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
