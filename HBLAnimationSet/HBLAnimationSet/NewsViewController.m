@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor colorWithRed:0.776 green:0.776 blue:0.776 alpha:1];
     [self prepareNavigationItemByCollectionView];
     
     [self prepareAllChildControllers];
@@ -48,14 +48,16 @@
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     layout.itemSize = CGSizeMake(64, 44);
     
-    _collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.view.frame), 44) collectionViewLayout:layout];
-    _collectionView.backgroundColor = [UIColor clearColor];
+    _collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 53, CGRectGetWidth(self.view.frame), 44) collectionViewLayout:layout];
+    _collectionView.backgroundColor = [UIColor whiteColor];
     [_collectionView registerNib:[UINib nibWithNibName:@"NewsCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:NewsCellIdentifier];
     _collectionView.showsHorizontalScrollIndicator = NO;
     _collectionView.bounces = NO;
     
-    self.navigationItem.titleView = _collectionView;
-    [self.navigationItem setHidesBackButton:YES];
+//    self.navigationItem.titleView = _collectionView;
+//    [self.navigationItem setHidesBackButton:YES];
+    [self.view addSubview:_collectionView];
+    
     _manager = [[NewsCollectionViewDataSourceManager alloc] init];
     
     __weak typeof(self) weakSelf = self;
@@ -115,6 +117,9 @@
         ChildNewsViewController *childVC = [[ChildNewsViewController alloc] init];
         childVC.title = title;
         childVC.delegate = self;
+        CGRect frame = childVC.view.frame;
+        frame.origin.y = 53+44+10;
+        childVC.view.frame = frame;
         [self addChildViewController:childVC];
     }
     

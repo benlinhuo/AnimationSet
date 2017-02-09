@@ -11,6 +11,8 @@
 
 @interface ChildNewsViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
 @end
 
 @implementation ChildNewsViewController
@@ -25,6 +27,8 @@
     UISwipeGestureRecognizer *rightSwipeGesture = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(actionSwipeGesture:)];
     rightSwipeGesture.direction = UISwipeGestureRecognizerDirectionRight;
     [self.view addGestureRecognizer:rightSwipeGesture];
+    
+    self.titleLabel.text = self.title;
 }
 
 - (void)viewWillAppear:(BOOL)animated
