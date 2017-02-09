@@ -11,7 +11,7 @@
 #import "NewsCollectionViewCell.h"
 #import "ChildNewsViewController.h"
 
-@interface NewsViewController ()<ChildNewsViewControllerDelegate>  {
+@interface NewsViewController ()<ChildNewsViewControllerDelegate, UIGestureRecognizerDelegate>  {
     NewsCollectionViewDataSourceManager *_manager;
 }
 
@@ -28,6 +28,18 @@
     [self prepareNavigationItemByCollectionView];
     
     [self prepareAllChildControllers];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.navigationController.interactivePopGestureRecognizer.delegate = self;
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    self.navigationController.interactivePopGestureRecognizer.delegate = nil;
+    [super viewWillDisappear:animated];
 }
 
 - (void)prepareNavigationItemByCollectionView
